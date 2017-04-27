@@ -3,9 +3,9 @@ int main()
 {
 	double a,b;
 	printf("Enter 1st number ==> ");
-	scanf("%d",&a);
+	scanf("%lf",&a);
 	printf("Enter 2nd number ==> ");
-	scanf("%d",&b);
-	printf("Sum = %d\n",a+b);
+	scanf("%lf",&b);
+	printf("Sum = %lf\n",a+b);
 	return 0;
 }
