@@ -9,10 +9,7 @@ int main()
     int i;
     int j;
     char buff[64];
-    fgets(buff,sizeof(buff),stdin);
-    sscanf(buff,"%s",str1);
-    fgets(buff,sizeof(buff),stdin);
-    sscanf(buff,"%s",str2);
+    scanf("%s %s",str1,str2);
     for(str1_len=0;str1[str1_len]!='\0';str1_len++);
     for(str2_len=0;str2[str2_len]!='\0';str2_len++);
     for(i=0,j=0;j<str1_len;i++,j++)
