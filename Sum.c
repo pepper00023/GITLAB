@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-	double a,b;
+	double num1,num2;
 	printf("Enter 1st number => ");
-	scanf("%lf",&a);
+	scanf("%lf",&num1);
 	printf("Enter 2nd number => ");
-	scanf("%lf",&b);
-	printf("Sum = %lf\n",a+b);
+	scanf("%lf",&num2);
+	printf("Sum = %lf\n",num1+num2);
 	return 0;
 }
